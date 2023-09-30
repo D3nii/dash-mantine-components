@@ -76,6 +76,8 @@ const MultiSelect = (props: Props) => {
         setProps({ searchValue: searchVal });
     }, [searchVal]);
 
+    console.log("I'm here");
+
     return (
         <MantineMultiSelect
             wrapperProps={{ autoComplete: "off" }}
